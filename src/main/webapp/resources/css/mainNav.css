@@ -137,7 +137,7 @@ a {
     top: 55px;
 }
 .my:hover .c_gnb_layer {
-	display: block;
+   display: block;
 }
 .c_gnb_layer.active {
     display: block;
@@ -206,8 +206,8 @@ a {
     box-sizing: border-box;
 }
 .c_util_servicelink li {
-		float:left;
-		margin-left: 30px;
+      float:left;
+      margin-left: 30px;
 }
 
 .c_util_servicelink li a {
