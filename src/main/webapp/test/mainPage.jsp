@@ -307,16 +307,6 @@ input, select, textarea {
 		<a href="/order/basket.html">Q&A</a>
 		<a href="/myshop/order/list.html">Cart</a>
 		<a href="/myshop/index.html">Mypage</a>
-		<!-- <a href="/link/bookmark.html" target="_blank" onclick="winPop(this.href); return false;" class="xans-element- xans-layout xans-layout-bookmark ">
-			<img src="./images/s45_bookmark_leftimg.jpg" style="padding-top:1px; padding-right:4px;"><strong>Bookmark</strong>
-		</a> -->
-		<!-- <span>
-			<span class="xans-element- xans-layout xans-layout-campaignoff ">
-			<img src="./images/s45_desktop_leftimg.jpg" style="padding-left:17px;">
-			<a href="/link/shortcut.html" target="_blank" onclick="winPop(this.href); return false;" style="margin-left:-11px;" class="xans-element- xans-layout xans-layout-shortcut ">desktop icon
-				<strong>OFF</strong>
-			</a>
-		</span> -->
 	</span>
 	</div>
          
