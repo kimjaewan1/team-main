@@ -123,234 +123,53 @@ $(document).ready(function() {
       top:45%;
 }
 </style>
-
-<style>
-
-body, code{
-	font: 0.75em "돋움",Dotum,AppleGothic,sans-serif;
-    color: #1c1c1c;
-    background: #fff;
-}
-#header{
-	width: 1280px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-#header_bg {
-    width: 100%;
-    border-bottom: 1px solid #e1e1e1;
-    background: #fff;
-}
-.xans-layout-statelogoff a {
-    display: inline;
-    font-size: 11px;
-    line-height: 14px;
-    color: #757575;
-    padding-left: 15px;
-}
-.xans-layout-statelogoff {
-    text-align: center;
-    font-size: 11px;
-    color: #757575;
-    font-family: tahoma;
-    padding: 12px 0;
-    letter-spacing: 1px;
-    *zoom: 1;
-}
-
-img, fieldset {
-    border: none;
-    vertical-align: top;
-}
-
-.xans-layout-logotop {
-    text-align: center;
-    width: 1280px;
-}
-
-.xans-layout-logotop .logo {
-    margin-top: 20px;
-}
-
-.xans-layout-category {
-    margin: 0 auto;
-    width: 1280px;
-    text-align: center;
-    padding-top: 30px;
-    border-bottom: 1px solid /* #ff0000 */ #d3d3d3;
-    clear: both;
-}
-
-.xans-layout-category .postion {
-    z-index: 1;
-    margin: 0 auto;
-}
-
-.xans-layout-category li {
-    position: relative;
-    display: inline-block;
-    padding: 0 15px;
-    z-index: 99000;
-}
-
-.xans-layout-category li a {
-    display: block;
-    height: 34px;
-    padding-top: 6px;
-    font-weight: bold;
-}
-
-a {
-    text-decoration: none;
-    color: #555;
-    outline: none;
-    selector-dummy: expression(this.hideFocus=true);
-}
-
-#top_cs_line {
-    width: 1280px;
-    margin: 0 auto;
-    clear: both;
-    height: 114px;
-    border-bottom: 1px solid #d3d3d3;
-}
-
-#top_cs_line .top_bbs {
-    float: left;
-    padding-top: 38px;
-    width: 420px;
-    border-bottom: 1px solid #d3d3d3;
-    padding-bottom: 23px;
-}
-
-#top_cs_line .top_bbs li {
-    float: left;
-    padding-right: 6px;
-}
-
-#top_cs_line .top_cs {
-    float: left;
-    padding-top: 31px;
-}
-
-li {
-    list-style: none;
-}
-
-.xans-layout-searchheader #keyword {
-    width: 238px;
-    height: 23px;
-    padding: 2px 0 0 2px;
-    border: 0;
-    background: #fff;
-    vertical-align: middle;
-    color: #444;
-    font-size: 11px;
-}
-
-input, select, textarea {
-    font-size: 100%;
-    font-family: "돋움",Dotum;
-    color: #1b1b1b;
-    vertical-align: middle;
-}
-.xans-layout-searchheader img {
-    cursor: pointer;
-} 
-
-#top_cs_line .top_search {
-    float: left;
-    padding-top: 34px;
-}
-
-.xans-layout-searchheader fieldset {
-    float: right;
-    line-height: 0;
-    border: 1px solid #d7d7d7;
-}
-
-.box {
-    position: relative;
-    font-size: 0;
-    text-align: left;
-    border: 1px solid #666;
-    border-radius: 21px;
-    box-sizing: border-box;
-    width: 300px;
-}
-
-.box .form_input {
-    display: block;
-    width: 200px;
-    height: 38px;
-    color: #555;
-    padding: 0px;
-    border: 0;
-    border-bottom: 0;
-    margin-left: 24px;
-    font-size: 14px;
-}
-
-.box .btn {
-    position: absolute;
-    top: 5px;
-    right: 23px;
-    z-index: 5;
-}
-</style>
 <body>
-
-<div id="header_bg">
-	<div class="xans-element- xans-layout xans-layout-statelogoff "><a href="/member/login.html">Log-in</a>
-		<a href="/member/join.html">Join</a>
-		<a href="/order/basket.html">Q&A</a>
-		<a href="/myshop/order/list.html">Cart</a>
-		<a href="/myshop/index.html">Mypage</a>
-		<!-- <a href="/link/bookmark.html" target="_blank" onclick="winPop(this.href); return false;" class="xans-element- xans-layout xans-layout-bookmark ">
-			<img src="./images/s45_bookmark_leftimg.jpg" style="padding-top:1px; padding-right:4px;"><strong>Bookmark</strong>
-		</a> -->
-		<!-- <span>
-			<span class="xans-element- xans-layout xans-layout-campaignoff ">
-			<img src="./images/s45_desktop_leftimg.jpg" style="padding-left:17px;">
-			<a href="/link/shortcut.html" target="_blank" onclick="winPop(this.href); return false;" style="margin-left:-11px;" class="xans-element- xans-layout xans-layout-shortcut ">desktop icon
-				<strong>OFF</strong>
-			</a>
-		</span> -->
-	</span>
-	</div>
-         
-</div>
-
-<div id="header">                  
-	<!-- <div class="xans-element- xans-layout xans-layout-logotop "><div><img src="./images/s45_top_semo.jpg"></div> -->
-		<div class="logo"><a href="/index.html"><img src="./images/s45_logo.jpg" alt="로고"></a></div>
-	</div>
-</div>
-
-<div class="xans-element- xans-layout xans-layout-category">
-    <div class="postion">
-	</div>
-</div>
-
-
-<div id="top_cs_line">
-
-  
-
-<div class="box" style="float: right; margin-top: 35px;"> 
-<!-- <span style="margin-left:115px;"><img src="./images/s45_search_img.jpg"></span> -->
-<input type="text" name="search_str" id="search_str" class="form_input" autocomplete="off" placeholder="검색어를 입력하세요.">
-<input type="image" src="./images/search_icon2.png" alt="검색" class="btn">
-</div>
-
-</div>
-
+<u:mainNav/>
 <div class="container">
    <section id="container">
       <div class="row d-flex justify-content-center">
    <!--상품 bootstrap card 시작  -->
-   
+   <c:forEach items="${list }" var="product">  
+      <c:url value="/product/get" var="productLink">
+         <c:param name="product_seq" value="${product.product_seq }"/>
+         <c:param name="pageNum" value="${pageDTO.cri.pageNum }"/>
+         <c:param name="amount" value="${pageDTO.cri.amount }"/>
+         <c:param name="type" value="${pageDTO.cri.type }"/>
+         <c:param name="keyword" value="${pageDTO.cri.keyword }"/>               
+         <c:param name="array" value="${pageDTO.cri.array }"/>               
+     </c:url>
+      <c:set var="visibility" value="100%"></c:set>
+      <c:if test="${product.product_status == 1 }">
+         <c:set var="visibility" value="30%"></c:set>
+      </c:if>   
+      <div class="card m-2">
+         <div class="img_box">
+            <a href="${productLink }" >
+               <img style="opacity : ${visibility}" src="${appRoot }/resources/upload/${product.product_filename }" alt="Card image cap">
+            </a>
+            <div style="position:absolute;top:45%;left:30%">
+               <c:if test="${product.product_status == 1 }">
+                  <h5>판매 종료</h5>
+               </c:if>
+            </div>
+         </div>
+         <div class="card-body" >
+            <a href="${productLink }" >
+               <fmt:formatNumber value="${product.product_price }" type="number" var="price"></fmt:formatNumber>
+            <h5 class="card-title"><c:out value="${price }"></c:out>원</h5>
+            <p><c:out value="${product.product_name }"></c:out></p>
+            </a>
+            <div>
+               <span><i class="fas fa-eye"></i> ${product.product_readcnt }</span>   
+               <span><i class="fas fa-heart"></i> ${product.product_like }</span>                              
+            </div>
+               <fmt:formatNumber value="${product.product_quantity }" type="number" var="quantity"></fmt:formatNumber>
+            <div class="cardLine1">총 ${quantity }개 남음</div>
+               <hr>
+             <p class="card-text">판매자 : <c:out value="${ product.user_nickname}"></c:out></p>
+         </div>
+      </div>
+   </c:forEach>
       </div>
    <button id="btn_plus" >더보기 +</button>
    </section>
@@ -406,10 +225,67 @@ input, select, textarea {
    <img class="chat" src="${appRoot}/resources/chat.png" />
 </c:if>
 <script>
-  
+   $(".chat").on({
+      "click" : function() {
+         if ($(this).attr("src") == "${appRoot}/resources/chat.png") {
+            //채팅끌때 클릭할 이미지 
+            $(".chat").attr("src", "${appRoot}/resources/chathide.png");
+            $("#_chatbox").css("display", "block");
+         } else if ($(this).attr("src") == "${appRoot}/resources/chathide.png") {
+            $(".chat").attr("src", "${appRoot}/resources/chat.png");
+            $("#_chatbox").css("display", "none");
+         }
+      }
+   });
 </script>
 <script type="text/javascript">
-  
+   var textarea = document.getElementById("messageWindow");
+   //서버 ip주소 입력
+   var webSocket = new WebSocket('ws://13.124.135.12:8080/${appRoot}/broadcasting');
+   var inputMessage = document.getElementById('inputMessage');
+   webSocket.onerror = function(event) {
+      onError(event)
+   };
+   webSocket.onopen = function(event) {
+      onOpen(event)
+   };
+   webSocket.onmessage = function(event) {
+      onMessage(event)
+   };
+   function onMessage(event) {
+      var message = event.data.split("|");
+      var sender = message[0];
+      var content = message[1];
+      if (content == "") {
+      } else {
+         $("#messageWindow").html($("#messageWindow").html() + "<p class='chat_content'>" + sender + " : " + content + "</p>");
+      }
+   }
+   function onOpen(event) {
+      $("#messageWindow").html("<p class='chat_content' style='width: 200px;'>채팅에 참여하였습니다.</p>");
+   }
+   function onError(event) {
+      alert(event.data);
+   }
+   function send() {
+      if (inputMessage.value == "") {
+      } else {
+         $("#messageWindow").html($("#messageWindow").html() + "<p class='chat_content'>나 : " + inputMessage.value + "</p>");
+      }
+      webSocket.send(nickname + "(" + userId + ") | " + inputMessage.value);
+      inputMessage.value = "";
+   }
+   // 엔터키를 통해 send함
+   function enterkey() {
+      if (window.event.keyCode == 13) {
+         send();
+      }
+   }
+   // 채팅이 많아져 스크롤바가 넘어가더라도 자동적으로 스크롤바가 내려가게함
+/*    window.setInterval(function() {
+      var elem = document.getElementById('messageWindow');
+      elem.scrollTop = elem.scrollHeight;
+   }, 0); */
 </script>
 </body>
 </html>
