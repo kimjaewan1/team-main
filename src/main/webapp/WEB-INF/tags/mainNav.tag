@@ -307,7 +307,7 @@ a {
                      <a href="${appRoot }/rev/list" class="">Cart</a>
                   </li>
                   <li>
-                     <a href="${appRoot }/product/list" class="">C.S</a>
+                     <a href="${appRoot }/product/list" class="">Mypage</a>
                   </li>
                   <c:if test="${authUser.user_grade == 0 }">
                      <li>
