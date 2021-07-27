@@ -313,7 +313,6 @@ input, select, textarea {
 </div>
 
 <div id="header">                  
-	<!-- <div class="xans-element- xans-layout xans-layout-logotop "><div><img src="./images/s45_top_semo.jpg"></div> -->
 		<div class="logo"><a href="/index.html"><img src="./images/s45_logo.jpg" alt="로고"></a></div>
 	</div>
 </div>
