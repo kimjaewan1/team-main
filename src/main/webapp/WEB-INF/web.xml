@@ -27,11 +27,8 @@
 			</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
-		<mulitpart-confg></mulitpart-confg>
-		<location>C:\\upload\\temp</location>
-		<max-file-size>20971520</max-file-size> <!-- 1MB *20 -->
-		<max-request-size>41943040</max-request-size> <!-- 40MB -->
-	</servlet>		
+	</servlet>
+		
 	<servlet-mapping>
 		<servlet-name>appServlet</servlet-name>
 		<url-pattern>/</url-pattern>
