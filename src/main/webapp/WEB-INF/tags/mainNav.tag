@@ -278,19 +278,28 @@ input, select, textarea {
 
 <div id="header_bg">
    <div class="xans-element- xans-layout xans-layout-statelogoff ">
+      <a href="${appRoot }/qa/list">Q&A</a>
+      <a href="${appRoot }/rev/list">Review</a>
+      <a href="${appRoot }/user/cart">Cart</a>
+      <a href="${appRoot }/user/userRead?user_id=${authUser.user_id}">MyPage</a>
+    <c:if test="${authUser.user_grade == 0}">
+      <a href="${appRoot }/user/userList">UserList</a>
+    </c:if>
+    <c:choose>
+	<c:when test="${authUser == null}">
       <a href="${appRoot }/user/login">Log-in</a>
       <a href="${appRoot }/user/userRegister">Join</a>
-      <a href="${appRoot }/qa/list">Q&A</a>
-       <a href="${appRoot }/rev/list">Review</a>
-      <a href="${appRoot }/user/cart">Cart</a>
-      <a href="${appRoot }/user/userRead?user_id=${authUser.user_id}">Mypage</a>
-   </span>
+    </c:when>
+    <c:otherwise>
+    	<a href="${appRoot }/user/logout">Log-out</a>
+    </c:otherwise>
+    </c:choose>
    </div>
          
 </div>
 
 <div id="header">                  
-      <div class="logo"><a href="${appRoot }/main/mainPage"><img src="${appRoot }/resources/logo/logo.jpg" alt="로고"></a></div>
+      <div class="logo"><a href="${appRoot }/main/mainPage"><img src="${appRoot }/resources/logo/logo.jpg" alt="로고"></a>
    </div>
 </div>
 
